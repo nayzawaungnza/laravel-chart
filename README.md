@@ -9,7 +9,196 @@
 
 ## Screenshots
 
-<img src="https://lh3.googleusercontent.com/lMB3argm7krF4F2kfrToN3K2bmsgiEq3kXcmv5KPT1TgGmEQStAgOAHkP0b97ZTKmPeJz_WxHmnD5B7iQQciauLOa960v3CtsyeIHA_uPhFLBKDsCuN6Z4MGFI5Y0UxvQQ=w1280" class="CENy8b" role="img">
+<div class="container pt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-body">
+                                        <div class="alert alert-success fade show" role="alert">
+                        <strong>Data Store </strong> Successfully
+                        
+                      </div>
+                                        <form action="http://127.0.0.1:8000" method="post" class="d-flex justify-content-between">
+                        <input type="hidden" name="_token" value="GbhcznuhnVwKzws0B4cSsStq6v8MpbHQdmS63F40">                        <div class="from-group">
+                            <input type="text" class="form-control  text-dark w-100" value="" placeholder="အကြောင်းအရာ" name="title" id="">
+                           
+                        </div>
+                        <div class="from-group">
+                            <input type="number" class="form-control  text-dark w-100" value="" placeholder="price" name="price" id="">
+                           
+                        </div>
+                        <div>
+                            <input type="date" class="form-control  text-dark w-100" value="" placeholder="" name="date" id="">
+                        </div>
+                       <div>
+                            <select name="type" class="form-control  w-100">
+                                <option value="in"> ဝင်ငွေ </option>
+                                <option value="out"> ထွက်ငွေ </option>
+                            </select>
+                       </div>
+                        <input type="submit" class="btn btn-success" value="စာရင်းသွင်းမယ်">
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card card-body mt-3">
+                    <ul class="list-group">
+                                                                                <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    ကြောင်စာဝယ် <br>
+                                    <small class="text-muted">2023-09-29</small>
+                                </div>
+                                <div class="text  text-danger ">
+                                    -9000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    လစာထုတ် <br>
+                                    <small class="text-muted">2023-09-29</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +10000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    ဈေးရောင်းရငွေ <br>
+                                    <small class="text-muted">2023-09-29</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +15000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    မေမေမုန့်ဖိုးပေး <br>
+                                    <small class="text-muted">2023-09-28</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +1000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    မုန့်ဝယ်စား <br>
+                                    <small class="text-muted">2023-09-28</small>
+                                </div>
+                                <div class="text  text-danger ">
+                                    -500 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    လုပ်အားခ <br>
+                                    <small class="text-muted">2023-09-27</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +8000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    ဆိုင်ထိုင် <br>
+                                    <small class="text-muted">2023-09-27</small>
+                                </div>
+                                <div class="text  text-danger ">
+                                    -5500 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    မုန့်ဝယ် <br>
+                                    <small class="text-muted">2023-09-26</small>
+                                </div>
+                                <div class="text  text-danger ">
+                                    -2000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    မုန့်ဖိုး <br>
+                                    <small class="text-muted">2023-09-26</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +10000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    ကားစီးခ <br>
+                                    <small class="text-muted">2023-09-25</small>
+                                </div>
+                                <div class="text  text-danger ">
+                                    -600 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    bonus <br>
+                                    <small class="text-muted">2023-09-25</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +12000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    ကားရေဆေး <br>
+                                    <small class="text-muted">2023-09-24</small>
+                                </div>
+                                <div class="text  text-danger ">
+                                    -5000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    ဝန်ဆောင်ခ <br>
+                                    <small class="text-muted">2023-09-24</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +17000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    ထမင်းစား <br>
+                                    <small class="text-muted">2023-09-23</small>
+                                </div>
+                                <div class="text  text-danger ">
+                                    -3000 ကျပ်
+                                </div>
+                            </li>
+                                                        <li class="list-group-item d-flex justify-content-between">
+                                <div class="text text-dark">
+                                    လုပ်အားခ <br>
+                                    <small class="text-muted">2023-09-23</small>
+                                </div>
+                                <div class="text  text-success ">
+                                    +8000 ကျပ်
+                                </div>
+                            </li>
+                                                        
+                                                
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card card-body mt-3">
+                    <div class="d-flex justify-content-between">
+                        <h5>Chart</h5>
+                        <div>
+                            <small class="text-success mr-3">ယနေ့ ဝင်ငွေ : +25000 ကျပ် </small>
+                            <small class="text-danger border-left pl-3">ယနေ့ ထွက်ငွေ : -9000 ကျပ် </small>
+                        </div>
+                    </div>
+                    <hr>
+                    <canvas id="inout" width="440" height="220" style="display: block; box-sizing: border-box; height: 220px; width: 440px;"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
 
 ## About Laravel
 

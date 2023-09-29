@@ -9,7 +9,7 @@
 
 ## Screenshots
 
-![App Screenshot]<img src="https://lh3.googleusercontent.com/lMB3argm7krF4F2kfrToN3K2bmsgiEq3kXcmv5KPT1TgGmEQStAgOAHkP0b97ZTKmPeJz_WxHmnD5B7iQQciauLOa960v3CtsyeIHA_uPhFLBKDsCuN6Z4MGFI5Y0UxvQQ=w1280" class="CENy8b" role="img">
+<img src="https://lh3.googleusercontent.com/lMB3argm7krF4F2kfrToN3K2bmsgiEq3kXcmv5KPT1TgGmEQStAgOAHkP0b97ZTKmPeJz_WxHmnD5B7iQQciauLOa960v3CtsyeIHA_uPhFLBKDsCuN6Z4MGFI5Y0UxvQQ=w1280" class="CENy8b" role="img">
 
 ## About Laravel
 

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laravel Chart JS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/argon-design-system-free@1.2.0/assets/css/argon-design-system.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-body">
+                    <form action="">
+                        <input type="text" class="btn btn-dark text-white" placeholder="အကြောင်းအရာ" name="about" id="">
+                        <input type="date" class="btn btn-dark text-white" placeholder="" name="date" id="">
+                        <select name="type" class="btn btn-dark">
+                            <option value=""> ဝင်ငွေ </option>
+                            <option value=""> ထွက်ငွေ </option>
+                        </select>
+                        <input type="submit" class="btn btn-success" value="စာရင်းသွင်းမယ်">
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card card-body mt-3">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div class="text text-dark">
+                                မေမေမုန်းဖိုးပေး <br>
+                                <small class="text-muted">12-11-2023</small>
+                            </div>
+                            <div class="text text-danger">
+                                -100 ကျပ်
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div class="text text-dark">
+                                မေမေမုန်းဖိုးပေး <br>
+                                <small class="text-muted">12-11-2023</small>
+                            </div>
+                            <div class="text text-success">
+                                +100 ကျပ်
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card card-body mt-3">
+                    <div class="d-flex justify-content-between">
+                        <h5>Chart</h5>
+                        <div>
+                            <small class="text-success mr-3"> ဝင်ငွေ : +2000 ကျပ် </small>
+                            <small class="text-danger border-left pl-3"> ထွက်ငွေ : -2000 ကျပ် </small>
+                        </div>
+                    </div>
+                    <hr>
+                    <canvas id="inout"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+
+        const ctx = document.getElementById('inout');
+
+        new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [
+                {
+                label: 'ဝင်ငွေ',
+                data: [12, 19, 3, 5, 2, 3],
+                borderWidth: 1,
+                backgroundColor:'#2dce89'
+                },
+                {
+                label: 'ထွက်ငွေ',
+                data: [2, 1, 3, 5, 2, 3],
+                borderWidth: 1,
+                backgroundColor:'#f5365c'
+                }
+            ]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+        });
+
+    </script>
+</body>
+</html>

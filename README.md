@@ -8,7 +8,7 @@
 </p>
 
 ## Screenshots
-
+<img src="https://ibb.co/6gMZ7cP" alt="Demo">
 
 
 ## About Laravel

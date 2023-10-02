@@ -8,7 +8,7 @@
 </p>
 
 ## Screenshots
-<img src="https://ibb.co/6gMZ7cP" alt="Demo">
+![alt text](https://github.com/nayzawaungnza/laravel-chart/blob/main/public/income-outcome-demo.png?raw=true)
 
 
 ## About Laravel
